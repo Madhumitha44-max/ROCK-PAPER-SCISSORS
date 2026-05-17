@@ -1,0 +1,53 @@
+
+h1{
+    height: 5rem;
+    background-color: maroon;
+    color: azure;
+    font-style: italic;
+    align-content: center;
+    justify-content: center;
+    line-height: center; 
+}
+.choice{
+    height:auto ;
+    width: auto;
+    border-radius: 50%;
+    border-color: black;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.choices{
+    height: auto;
+    width:auto ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 4rem;
+    padding-left: 0.5rem;
+}
+.scoreboard{
+    margin-top:8rem ;
+    display: flex;
+    gap: 4rem;
+    align-content: center;
+    justify-content: center;
+}
+#Computerscore{
+    height: auto;
+}
+#Yourscore{
+    height: auto;
+}
+.msg{
+    height: auto;
+    width: auto;
+    background-color: pink;
+    color: black;
+    margin-top: 2rem;
+    align-content: center;
+    justify-content: center;
+
+}
